@@ -1,0 +1,151 @@
+:root {
+    --main: #14a2b8;
+    --green: #01394f;
+    --orange: #fd7e14;
+    --gray: #6c757d;
+    --black: #000;
+    --white: #fff;
+	--font-family-sans-serif: "Nunito", sans-serif;
+}
+.btn-his{
+    border: none;
+    background-color: white;
+  }
+.btn-his:focus{
+    outline: none;
+  }
+
+.btn-hdangnhap{
+	padding: 0;
+	border: none;
+	background-color: white;
+}
+.btn-hdangnhap:focus{
+	padding: 0;
+    border: none;
+    background-color: white;
+	outline: none;
+}
+
+.uname {
+    height: 38px;
+    padding: 0 9px;
+    width: 100%;
+    font-size: 0.9375rem;
+    /* padding: 12px 20px; */
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+	border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.uname:focus{
+	border-color: var(--main);
+	outline: 0;
+}
+
+.modal-item-login {
+    position: relative;
+}
+.icon-login-modal {
+    font-size: 0.9rem;
+    position: absolute;
+    right: 10px;
+    top: 19px;
+    color: #666;
+}
+/* Set a style for all buttons */
+.login-submit {
+    background-color: var(--main);
+    color: white;
+    padding: 11px 20px;
+    margin: 8px 0;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+.login-submit:focus {
+    outline: none;
+}
+.login-submit:hover {
+    opacity: 0.8;
+}
+.modal-login-register {
+    margin: 5px 0;
+    font-size: 14px;
+}
+.modal-login-link-register {
+    background-color: var(--white);
+    border: none;
+    padding: 0;
+    color: var(--green);
+}
+.modal-login-link-register:focus {
+    outline: none;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 0 0;
+    position: relative;
+}
+
+.modal-container {
+    padding: 15px 25px;
+}
+
+
+/* Modal Content/Box */
+.modal-content-login {
+    box-shadow: 0px 3px 18px rgba(25, 25, 26, 0.2);
+    border-radius: 5px;
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #fbfbfb;
+    width: 34%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+
+
+.close-modal-login:hover,
+.close-modal-login:focus {
+    /* background-color: var(--orange); */
+    color: red;
+    cursor: pointer;
+}
+
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0);
+    }
+    to {
+        -webkit-transform: scale(1);
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.forgot {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}

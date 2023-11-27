@@ -1,0 +1,87 @@
+body{
+	/* width: 100%; */
+	height: 100%;
+	margin: 0px;
+	font-family: "Nunito", sans-serif;
+}
+.header{
+	height: 86px;
+    box-shadow: 0 6px 6px rgba(0,0,0,.06);
+	background-color: #f8f9fa;
+}
+.logo{
+	margin: 0 80px;
+    display: flex;
+}
+.anh{
+	width: 225px;
+    padding-top: 12px;
+}
+.form{
+	box-shadow: 0px 3px 18px rgba(25, 25, 26, 0.2);
+	border-radius: 5px;
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #f5f5f5;
+    width: 32%;
+}
+.heading{
+	font-size: 1rem;
+	color: #14a2b8;
+	text-align: center;
+	font-weight: bold;
+}
+.register--content{
+    width: 395px;
+    padding: 15px 25px;
+	margin: 0 auto;
+}
+.email{
+	position: relative;
+}
+.inputText{
+	height: 40px;
+    padding: 0 9px;
+    width: 100%;
+    font-size: 0.9375rem;
+    /* padding: 12px 20px; */
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.inputText:focus {
+    border-color: #14a2b8;
+    outline: 0;
+}
+.icon-login-modal {
+    font-size: 0.9rem;
+    position: absolute;
+    right: 10px;
+    top: 21px;
+    color: #666;
+}
+.register-buttton {
+    background-color:#14a2b8 ;
+    color: white;
+    padding: 11px 20px;
+    margin: 8px 0;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+	font-family: "Nunito", sans-serif;
+}
+.login--button{
+	text-align: center;
+	font-size: 14px;
+	margin: 5px 0;
+	color: #666666;
+}
+.btn{
+	color: #01394f;
+	text-decoration: none;
+}
